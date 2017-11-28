@@ -29,7 +29,7 @@ module PuppetCatalogTest
         Puppet.settings[:parser] = parser
       end
 
-      Puppet.parse_config
+      Puppet.initialize_settings
     end
 
     def nodes
